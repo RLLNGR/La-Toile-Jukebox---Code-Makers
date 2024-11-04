@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+
+html {
+  background: #e2001a;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #4b4b4b;
+  background: white;
+  line-height: normal;
+  text-transform: lowercase;
+}
+
+header {
+  background-image: url('assets/header.svg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+
+nav {
+  background: white;
+  padding-bottom: 10px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+li a {
+  font-weight: bold;
+  color: #4b4b4b;
+}
+
+a {
+  text-decoration: none;
+  color: #4b4b4b;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #e2001a;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+  padding: 80px 40px 120px;
+}
+
+article {
+  grid-column: span 2;
+}
+
+article a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #4b4b4b;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+article img:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  color: #e2001a;
+  font-size: 1rem;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+p.student {
+  font-style: italic;
+}
+
+footer {
+  background: #e2001a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  padding: 10px;
+}
