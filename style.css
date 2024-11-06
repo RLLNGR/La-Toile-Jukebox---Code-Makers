@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background-image: url('assets/header.svg');
+  background-image: url('https://rllngr.github.io/La-Toile-Jukebox-Code-Makers/assets/header.svg');
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -23,9 +23,10 @@ header {
 nav {
   background: white;
   padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
-ul {
+nav ul {
   display: flex;
   list-style: none;
   align-items: center;
@@ -35,18 +36,18 @@ ul {
   margin: 0;
 }
 
-li a {
+nav li a {
   font-weight: bold;
   color: #4b4b4b;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: #4b4b4b;
   transition: color 0.3s ease-in-out;
 }
 
-a:hover {
+nav a:hover {
   color: #e2001a;
 }
 
